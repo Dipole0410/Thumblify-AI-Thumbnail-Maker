@@ -2,9 +2,6 @@ import { Request,Response } from "express"
 import User from "../models/User.js";
 import bcrypt from 'bcrypt';
 
-
-
-
 // controllers for user registration
 
 export const registerUser = async (req: Request,res:Response)=>{
